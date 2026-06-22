@@ -45,8 +45,7 @@ export const invitationData = {
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfSZksyxu3m_kYGh5OA9Th8-laeahiue6UKM73lFjZVjdHqwQ/viewform?pli=1',
   },
   gift: {
-    title:
-      'Tu presencia es nuestro mejor regalo, pero si querés colaborar con nuestra luna de miel...',
+    title: 'Tu presencia es mi mejor regalo. Pero si quewres hacerme un obsequio...',
     buttonLabel: 'Ver datos bancarios',
     bank: {
       alias: 'pablomaccor1975',
