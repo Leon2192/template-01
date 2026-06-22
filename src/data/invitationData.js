@@ -33,7 +33,8 @@ export const invitationData = {
     actionLink: qrAlbumLink,
   },
   music: {
-    title: 'Recomendanos una canción que te gustaría escuchar...',
+    title: 'Que canciones no pueden faltar?',
+    subtitle: 'Ayudame a armar la playlist de la fiesta!',
     buttonLabel: 'Sugerir canción',
     link: 'https://accounts.spotify.com/es/login?continue=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F0xAwRRDCYaup6vHk4b4fq7%3Fsi%3DrSshb1IhRH-fqj16YohTAw%26pi%3DAH6zN5J3SuiLb%26pt%3Dc3bd44d5ec28854878df611a68938e67',
   },

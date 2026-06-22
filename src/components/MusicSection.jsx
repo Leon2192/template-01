@@ -5,7 +5,7 @@ function MusicSection({ icon, music }) {
   return (
     <SectionShell className="section-shell--compact">
       <div className="panel panel--narrow">
-        <SectionIntro icon={icon} title="Playlist del evento" text={music.title} />
+        <SectionIntro icon={icon} title={music.title} text={music.subtitle} />
         <a
           className="button button--secondary music-section__button"
           href={music.link}
