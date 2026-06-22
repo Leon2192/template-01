@@ -14,8 +14,7 @@ export const invitationData = {
     venue: 'Taos Eventos',
     address: 'km105, RN7',
     city: 'Buenos Aires',
-    details:
-      'Nos encontramos en Taos Eventos para celebrar una noche muy especial.',
+    details: 'Te espero en Taos para celebrar una noche muy especial.',
     mapEmbed:
       'https://www.google.com/maps?q=-34.4572658,-59.4727502&z=17&output=embed',
     mapLink:
@@ -28,6 +27,7 @@ export const invitationData = {
   },
   qr: {
     title: 'Escaneá este QR',
+    subtitle: 'Y comparti conmigo las fotos de mi fiesta',
     helperText: 'O presioná este botón',
     buttonLabel: 'Ir al album',
     actionLink: qrAlbumLink,

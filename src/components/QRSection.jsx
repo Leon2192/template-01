@@ -7,7 +7,7 @@ function QRSection({ icon, qr }) {
   return (
     <SectionShell className="section-shell--compact">
       <div className="panel panel--narrow qr-panel">
-        <SectionIntro icon={icon} title={qr.title} />
+        <SectionIntro icon={icon} title={qr.title} text={qr.subtitle} />
         <img className="qr-image" src={qrImageSrc} alt="Codigo QR del evento" />
         <p className="section-helper">{qr.helperText}</p>
         <a

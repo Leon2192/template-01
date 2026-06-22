@@ -130,6 +130,12 @@
   text-align: center;
 }
 
+.countdown-panel .panel-tag {
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.16em;
+}
+
 .countdown-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
