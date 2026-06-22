@@ -1,25 +1,25 @@
 :root {
   font-family: 'Alice', serif;
-  color: #5f4c46;
+  color: #32476f;
   background:
-    radial-gradient(circle at top, rgba(255, 236, 228, 0.8), transparent 32%),
-    linear-gradient(180deg, #fffcfa 0%, #fdf8f4 100%);
+    radial-gradient(circle at top, rgba(188, 208, 235, 0.6), transparent 32%),
+    linear-gradient(180deg, #edf0f7 0%, #e6ebf5 100%);
   line-height: 1.5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --background: #fffcfa;
+  --background: #edf0f7;
   --background-soft: rgba(255, 255, 255, 0.82);
-  --background-strong: #fff8f4;
-  --surface-border: rgba(179, 132, 111, 0.16);
-  --surface-shadow: 0 24px 48px rgba(154, 111, 92, 0.12);
-  --text-main: #5f4c46;
-  --text-soft: #8b7268;
-  --title: #7c5b54;
-  --accent: #b7816d;
-  --accent-strong: #9d6c59;
-  --accent-soft: #f4e6dd;
+  --background-strong: #e6ebf5;
+  --surface-border: rgba(36, 56, 103, 0.12);
+  --surface-shadow: 0 24px 48px rgba(36, 56, 103, 0.12);
+  --text-main: #32476f;
+  --text-soft: #61779f;
+  --title: #243867;
+  --accent: #3d78b4;
+  --accent-strong: #3d78b4;
+  --accent-soft: #dce7f5;
   --white: #ffffff;
   --max-width: 1120px;
   --section-gap: 1.25rem;

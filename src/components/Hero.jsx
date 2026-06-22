@@ -9,7 +9,7 @@ function Hero({ data, targetId }) {
     <header
       className="hero"
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,247,243,0.72) 72%, rgba(252,249,247,0.96) 100%), url(${data.coverImage})`,
+        backgroundImage: `linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(237,240,247,0.72) 72%, rgba(232,238,247,0.96) 100%), url(${data.coverImage})`,
       }}
     >
       <button
