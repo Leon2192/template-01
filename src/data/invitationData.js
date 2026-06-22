@@ -40,7 +40,7 @@ export const invitationData = {
   },
   rsvp: {
     title:
-      'Nos gustaría que nos confirmes tu asistencia. Podés hacerlo en este enlace.',
+      'Me gustaría que confirmes tu asistencia. Podés hacerlo haciendo clic en este boton.',
     buttonLabel: 'Confirmar asistencia',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfSZksyxu3m_kYGh5OA9Th8-laeahiue6UKM73lFjZVjdHqwQ/viewform?pli=1',
   },
