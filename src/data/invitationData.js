@@ -29,7 +29,8 @@ export const invitationData = {
       'https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=https%3A%2F%2Fexample.com%2Finvitacion-demo',
     helperText: 'O presioná este botón',
     buttonLabel: 'Abrir invitacion',
-    actionLink: 'https://example.com/invitacion-demo',
+    actionLink:
+      'https://photos.google.com/u/0/album/AF1QipP9oi4d2EzRIqF3EkvdEGZnWahBuDrZt4-R96Vy',
   },
   music: {
     title: 'Recomendanos una canción que te gustaría escuchar...',
