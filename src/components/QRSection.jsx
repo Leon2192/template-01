@@ -13,8 +13,6 @@ function QRSection({ icon, qr }) {
         <a
           className="button button--primary"
           href={qr.actionLink}
-          target="_blank"
-          rel="noreferrer"
         >
           {qr.buttonLabel}
         </a>
