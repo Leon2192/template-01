@@ -1,3 +1,6 @@
+const qrAlbumLink =
+  'https://photos.google.com/u/0/album/AF1QipP9oi4d2EzRIqF3EkvdEGZnWahBuDrZt4-R96Vy';
+
 export const invitationData = {
   hero: {
     eyebrow: 'Invitacion demo',
@@ -25,12 +28,9 @@ export const invitationData = {
   },
   qr: {
     title: 'Escaneá este QR',
-    image:
-      'https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=https%3A%2F%2Fexample.com%2Finvitacion-demo',
     helperText: 'O presioná este botón',
     buttonLabel: 'Ir al album',
-    actionLink:
-      'https://photos.google.com/u/0/album/AF1QipP9oi4d2EzRIqF3EkvdEGZnWahBuDrZt4-R96Vy',
+    actionLink: qrAlbumLink,
   },
   music: {
     title: 'Recomendanos una canción que te gustaría escuchar...',
