@@ -14,6 +14,7 @@ import QRSection from './components/QRSection';
 import MusicSection from './components/MusicSection';
 import RSVPSection from './components/RSVPSection';
 import GiftSection from './components/GiftSection';
+import Thanks from './components/Thanks';
 import { invitationData } from './data/invitationData';
 import './styles/app.css';
 
@@ -39,6 +40,7 @@ function App() {
         <MusicSection icon={Music4} music={music} />
         <RSVPSection icon={TicketCheck} rsvp={rsvp} />
         <GiftSection icon={Gift} gift={gift} />
+        <Thanks />
       </main>
     </div>
   );

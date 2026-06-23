@@ -223,6 +223,18 @@
   margin-top: 1.5rem;
 }
 
+.thanks-panel {
+  padding: 0;
+  overflow: hidden;
+}
+
+.thanks-image {
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+  object-fit: contain;
+}
+
 .event-info-grid {
   display: grid;
   gap: 1rem;
