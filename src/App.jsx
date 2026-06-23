@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {
   Gift,
   MapPinned,
@@ -15,6 +16,7 @@ import MusicSection from './components/MusicSection';
 import RSVPSection from './components/RSVPSection';
 import GiftSection from './components/GiftSection';
 import Thanks from './components/Thanks';
+import Loader from './components/Loader';
 import { invitationData } from './data/invitationData';
 import './styles/app.css';
 
@@ -28,6 +30,42 @@ function App() {
     rsvp,
     gift,
   } = invitationData;
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const imageSources = [
+      hero.coverImage,
+      '/assets/qr.jpeg',
+      '/assets/gracias.webp',
+      '/assets/logo.png',
+    ];
+
+    let cancelled = false;
+
+    const preloadImage = (source) =>
+      new Promise((resolve) => {
+        const image = new Image();
+        image.onload = resolve;
+        image.onerror = resolve;
+        image.src = source;
+      });
+
+    Promise.all(imageSources.map(preloadImage)).then(() => {
+      window.setTimeout(() => {
+        if (!cancelled) {
+          setIsLoading(false);
+        }
+      }, 450);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [hero.coverImage]);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <div className="page-shell">
