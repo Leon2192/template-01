@@ -28,6 +28,10 @@ function GiftModal({ bank, buttonLabel }) {
 
           <div className="bank-data">
             <div className="bank-data__item">
+              <span>Titular</span>
+              <strong>{bank.holder}</strong>
+            </div>
+            <div className="bank-data__item">
               <span>Alias</span>
               <strong>{bank.alias}</strong>
             </div>

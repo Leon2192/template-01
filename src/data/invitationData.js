@@ -48,6 +48,7 @@ export const invitationData = {
     title: 'Tu presencia es mi mejor regalo. Pero si querés hacerme un obsequio...',
     buttonLabel: 'Ver datos bancarios',
     bank: {
+      holder: 'Pablo Maccor',
       alias: 'pablomaccor1975',
     },
   },
