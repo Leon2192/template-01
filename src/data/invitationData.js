@@ -7,7 +7,7 @@ export const invitationData = {
     title: 'Valentina & Mateo',
     subtitle: 'Nos encantaria compartir una noche inolvidable con vos.',
     dateLabel: 'Viernes 17 de julio de 2026',
-    coverImage: '/assets/portada.jpeg',
+    coverImage: '/assets/portada1.webp',
   },
   event: {
     date: '2026-07-17T21:00:00-03:00',
