@@ -1,5 +1,5 @@
 const qrAlbumLink =
-  'https://photos.google.com/u/0/album/AF1QipP9oi4d2EzRIqF3EkvdEGZnWahBuDrZt4-R96Vy';
+  'https://photos.google.com/share/AF1QipOLmjHZhE3-_J7ghIIaH9EHkfxTlE_oxOqqw5Iy8M6IFcc2NFKztIt3ntYCHnChng?key=Q2pNUTZnRGRlckxvd1JJekR0T1NJUmV4U25pS1Vn';
 
 export const invitationData = {
   hero: {
